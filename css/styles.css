@@ -45,6 +45,7 @@ img {
   display: flex;
   align-items: center;
   height: 72px;
+  padding: 24px 0;
 }
 
 .header-navigation {
@@ -56,17 +57,11 @@ img {
 .header-menu-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-contacts {
   display: flex;
   margin-left: auto;
-  padding: 24px 0;
-}
-
-.header-menu-item {
-  padding: 24px 0;
 }
 
 .header-contacts-list {
