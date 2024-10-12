@@ -174,7 +174,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  margin-bottom: 8px;
 }
 
 .features-list {
@@ -188,7 +187,11 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+.features-item-list {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-item {
@@ -197,7 +200,6 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   margin-right: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .team {
@@ -209,13 +211,13 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
   padding-bottom: 72px;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-title {
@@ -229,8 +231,7 @@ img {
   max-width: 163px;
   margin: 0 auto;
   padding-top: 120px;
-  padding-bottom: 72px;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 .team-sutitle {
@@ -240,6 +241,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-container {
@@ -295,6 +297,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-size: 16px;
